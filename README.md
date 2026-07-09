@@ -47,7 +47,7 @@ export type CreateUserInput = z.infer<typeof createUserSchema>;
 ```
 ---
 
-#### app/api/user
+#### app/api/user/create
 ```bash
 import { NextRequest, NextResponse } from "next/server";
 import prisma from "@/lib/prisma";
