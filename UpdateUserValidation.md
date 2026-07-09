@@ -130,3 +130,5 @@ export async function PUT(request: NextRequest) {
 }
 ```
 ---
+![](https://imgur.com/aEZ3uBF.png)
+![](https://imgur.com/l8xhdzP.png)
