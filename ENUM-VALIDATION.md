@@ -19,7 +19,7 @@ export const transactionStatusSchema = z.object({
 #### Best Practice
 ```bash
 import { z } from "zod";
-import { OrderStatus, TransactionStatus } from "@/app/generated/prisma/client";
+import { OrderStatus, TransactionStatus } from "@/app/generated/prisma";
 
 
 export const orderStatusSchema = z.object({
