@@ -19,7 +19,7 @@ export const env = envSchema.parse(process.env);
 ```
 ---
 
-#### For import 
+#### For import & use case 
 ```bash
 import { env } from "@/lib/validations/env.schema";
 
