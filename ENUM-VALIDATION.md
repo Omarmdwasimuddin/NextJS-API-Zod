@@ -29,5 +29,8 @@ export const orderStatusSchema = z.object({
 export const transactionStatusSchema = z.object({
     status: z.nativeEnum(TransactionStatus),
 });
+
+export type OrderStatusInput = z.infer<typeof orderStatusSchema>;
+export type TransactionStatusInput = z.infer<typeof transactionStatusSchema>;
 ```
 ---
