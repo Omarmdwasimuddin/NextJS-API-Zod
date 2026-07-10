@@ -18,3 +18,13 @@ export const envSchema = z.object({
 export const env = envSchema.parse(process.env);
 ```
 ---
+
+#### For import 
+```bash
+import { env } from "@/lib/validations/env.schema";
+
+formData.append("store_id", env.SSLCOMMERZ_STORE_ID);
+formData.append("store_passwd", env.SSLCOMMERZ_STORE_PASSWORD);
+```
+` এখানে আর as string লাগবে না, কারণ Zod validate করার পর TypeScript জানে এগুলো string। `
+---
