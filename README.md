@@ -1,4 +1,4 @@
-## NextJS API---> Zod for validation
+## Next.js API: Zod Validation
 
 #### Install
 ```bash
